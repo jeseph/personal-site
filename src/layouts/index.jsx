@@ -40,8 +40,6 @@ export default class MainLayout extends React.Component {
         </Helmet>
         {children()}
       </div>
-      <div className='test'>Hello World</div>
-
     );
   }
 }
