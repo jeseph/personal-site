@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://www.jese.ph`,
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-tagmanager`,
@@ -8,5 +11,8 @@ module.exports = {
     },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sitemap`
+    },
   ]
 }
