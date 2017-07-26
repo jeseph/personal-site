@@ -3,6 +3,10 @@ module.exports = {
     siteUrl: `https://www.jese.ph`,
   },
   plugins: [
+    resolve: `gatsby-plugin-canonical-urls`,
+    options: {
+      siteUrl: `https://www.jese.ph`,
+    }
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
